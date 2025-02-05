@@ -1,0 +1,31 @@
+h2{
+   background-color: #808080;
+   border-block:#CB9;
+   padding-block: 60px;
+   text-align: center;
+}
+
+h1,h2, p::first-letter{
+   color: #3beb05;
+   font-size: 100%;
+   text-transform: capitalize;
+}
+ul,li{
+   list-style-type: lower-greek;
+   border-block-start: 20px solid #808080;
+}
+p{
+    line-height: 1.01rem;
+}
+section,dl{
+    font-size: 0.5rem;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+img:nth-of-type(odd){
+    border-radius: 0px, 60px, 0px, 60px;
+}
+img:nth-of-type(even){
+    border-radius: 60px, 0px, 60px, 0px;
+}
