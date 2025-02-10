@@ -69,4 +69,7 @@ body{
     margin-inline: auto;
     width: 70%;
     background-image: radial-gradient(#ccc, #ddd);
+    background-attachment: fixed;
+
+
 }
